@@ -1,0 +1,1799 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    color: #26455d;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Comman Style*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f7f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #26455d;
+    border-radius: 4px;
+}
+
+:focus {
+    outline: 0 !important;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.pb10 {
+    padding-bottom: 10px !important;
+}
+
+.pt0 {
+    padding-top: 0px !important;
+}
+
+.font-400 {
+    font-weight: 400;
+}
+
+.margin-auto {
+    margin: auto;
+    display: table;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #a6a8a9;
+}
+
+.pt40 {
+    padding-top: 40px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn-default {
+    /*    background: linear-gradient(to right, #e64194, #cc43aa, #c143b1, #a644cb, #9a45d5);*/
+    background: linear-gradient(to right, rgba(227, 65, 149, 1) 0%, rgba(215, 66, 158, 1) 30%, rgba(164, 68, 202, 1) 70%, rgba(158, 69, 209, 1) 100%);
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 40px;
+    font-size: 14px;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+    -webkit-transition: all ease 0.9s;
+    transition: all ease 0.9s;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 12px 10px rgba(0, 0, 0, 0.14);
+
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default:active:focus {
+    border: none;
+    color: #fff;
+    box-shadow: none;
+    background: linear-gradient(to right, rgba(227, 65, 149, 1) 0%, rgba(215, 66, 158, 1) 30%, rgba(164, 68, 202, 1) 70%, rgba(158, 69, 209, 1) 100%);
+}
+
+.btn-reverse {
+    border: 1px solid #a444ca;
+    background-color: #fff;
+    color: #a444ca;
+    padding: 8px 20px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+    -webkit-transition: all ease 0.9s;
+    transition: all ease 0.9s;
+    margin: auto;
+}
+
+.btn-reverse:hover {
+    border: none;
+    background: linear-gradient(to right, rgba(227, 65, 149, 1) 0%, rgba(215, 66, 158, 1) 30%, rgba(164, 68, 202, 1) 70%, rgba(158, 69, 209, 1) 100%);
+    border: 1px solid #a444ca;
+    color: #fff;
+    box-shadow: none;
+}
+
+.heading p {
+    font-family: 'Montserrat', sans-serif;
+    color: #a7a7a7;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+.form-control {
+    border: 1px solid #d3d3d3;
+    color: #26455d;
+    font-size: 14px;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: none !important;
+    border-radius: 3px;
+    height: 42px;
+}
+
+.form-control:focus {
+    border: 1px solid #26455d;
+}
+
+textarea {
+    resize: none;
+    height: inherit;
+}
+
+.tweet-section {
+    padding: 30px 0;
+}
+
+.color-1 {
+    color: #9d45d3;
+}
+
+.color-2 {
+    color: #e64191;
+}
+
+.color-3 {
+    color: #26455e;
+}
+
+.color-4 {
+    color: #2da6f3;
+}
+
+
+/*Header Style*/
+
+header {
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    padding: 8px 0;
+    z-index: 99;
+}
+
+header .logo .navbar-brand {
+    padding: 14px 0;
+    height: inherit;
+}
+
+header .logo img {
+    width: 65%;
+}
+
+header .navbar {
+    background-color: transparent;
+    border: none;
+    min-height: inherit;
+    margin-bottom: 0px;
+}
+
+header .navbar-nav {
+    float: none;
+    text-align: center;
+}
+
+header .navbar-nav li {
+    float: none;
+    text-align: center;
+    display: inline-block;
+}
+
+header .navbar-nav li a {
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 14px 20px;
+    font-weight: 500;
+
+}
+
+header .navbar-nav li a.active,
+header .navbar-nav li a:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+header .action-btn li {
+    display: inline-block;
+    margin: 4px 5px;
+}
+
+header .action-btn li .btn-info.login {
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    padding: 7px 22px;
+    font-weight: 800;
+}
+
+header .action-btn li .btn-info.signup {
+    background-color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    color: #f33693;
+    padding: 7px 22px;
+    font-weight: 800;
+}
+
+.tweet-mainpage {
+    padding-top: 66px;
+}
+
+/*Banner Style*/
+
+.tweet-banner {
+    background-image: url(../img/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 720px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.banner-text {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.banner-text .text {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: table;
+}
+
+.banner-text .text .middel {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 25px;
+
+}
+
+
+.banner-text .box .heading h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 0.7px;
+    margin-bottom: 5px;
+}
+
+.banner-text .box .sub-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 35px;
+
+}
+
+.banner-text .box .no-card {
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+
+
+
+/* followers Style*/
+
+.tweet-followers {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+
+.tweet-followers .follower-box {
+    text-align: center;
+    position: relative;
+}
+
+.tweet-followers .follower-box .count {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-shadow: 0px 8px 10px #2497ed;
+    -webkit-text-stroke: 1.5px #33a9f3;
+    margin-top: 0px;
+}
+
+.tweet-followers .follower-box .text {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.tweet-followers .follower-box.pull-right:after {
+    content: "";
+    position: absolute;
+    right: -40px;
+    top: 14px;
+    height: 75px;
+    background-color: #66ffff;
+    width: 1px;
+}
+/**/
+.text--logo {
+
+    font-family: Pacifico,cursive;
+    transition: ease-in-out 1s;
+}
+.lead {
+    font-weight: 400;
+    color: grey;
+}
+.lead {
+    font-size: 1.35714286em;
+    line-height: 1.68421053em;
+}
+.text--logo.light, .thin {
+    font-weight: 300!important;
+}
+.h1:not(:last-child), h1:not(:last-child) {
+    margin-bottom: .59090909090909em;
+}
+.h1{font-weight: 600!important;}
+.text--logo:hover,
+a {
+    text-decoration: none!important
+}
+.color--primary {
+    color: #ef4c4c!important
+}
+.text--logo.light,
+.thin {
+    font-weight: 300!important
+}
+footer.space--xs, section.space--xs {
+    padding-top: 3.71428571em;
+    padding-bottom: 3.71428571em;
+}
+.space--xs p{color:#000;font-weight: 400!important;}
+.circled.one {
+    color: #ef4c4c;
+    background: rgba(255,216,216,.5);
+}
+.swoosh {
+    position: relative;
+    padding-bottom: 0;
+}
+.footer {
+    position: relative;
+    overflow: hidden;
+    background-color: #7B4EFF;
+    color: white;
+    padding-bottom: 40px;
+}
+.footer:before {
+    margin-bottom: 30px;
+}
+.swoosh.swoosh-top:before {
+    background-image: url(../../public/img/swoosh-top-to-right-29125958.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 140px;
+    content: '';
+    display: block;
+    width: 100%;
+    left: -1%;
+    right: -1%;
+    background-size: 100% 100%;
+    top: 0;
+}
+.column h6{line-height: 1.4;
+    margin-bottom: 1rem;}
+.footer .brand {
+    max-width: 140px;
+    height: 50px;
+}
+.footer p, .footer address {
+    font-size: 16px;
+    font-style: normal;
+}
+.footer h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #A388FF;
+}
+.footer-logo{width: 60%;}
+.footer .stripe small {
+    font-size: 1.6rem;
+}
+
+.footer a {
+    display: block;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 4px 0;
+}
+.footer .stripe {
+    background: #7B4EFF;
+    color: white;
+    bottom: 0;
+    position: relative;
+    padding-bottom: 12px;
+}
+.text_center{text-align: center;}
+.accordion .accordion__title span, .card-1 .card__avatar, .card-1 .card__meta, .card-2 .card__bottom>div, .checkmark, .icon:not(.block), .tooltip {
+    display: inline-block;
+}
+.circled {
+    padding: 20px;
+    border-radius: 100%;
+}
+.icon {
+    line-height: 1em;
+    font-size: 3.14285714em;
+}
+.text-block .icon+h4 {
+    margin-top: .6842105263158em;
+}
+.text-block .h4:not(:last-child), .text-block h4:not(:last-child) {
+    margin-bottom: .3421052631579em;
+}
+.circled.two {
+    color: #79d499;
+    background: rgba(218,247,231,.5);
+}
+.circled.three {
+    color: #f0c055;
+    background: rgba(255,248,210,.5);
+}
+.circled.four {
+    color: #2c96ea;
+    background: #e4f3ff;
+}
+.tweet-followers [class*=' col-'] {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+/* How To Work Style*/
+
+.tweet-howwork .row:first-child {
+    position: relative;
+    z-index: 1;
+}
+
+.tweet-howwork .how-work-img {
+    box-shadow: 0 13px 45px 15px rgba(0, 0, 0, 0.10);
+}
+
+.tweet-howwork .how-work-text {
+    padding-top: 50px;
+}
+
+.tweet-howwork .how-work-text h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    margin-bottom: 0px;
+}
+
+.tweet-howwork .how-work-text p {
+    color: #81a7c3;
+    padding-top: 15px;
+    font-size: 14px;
+    line-height: 26px;
+    padding-right: 15px;
+    font-weight: 500;
+
+}
+
+.tweet-howwork .how-work-text.engage-targets {
+    padding-left: 15px;
+}
+
+.tweet-howwork .how-work-img .left-customers-box {
+    position: relative;
+}
+
+.tweet-howwork .how-work-img .left-customers-box .height-line {
+    position: absolute;
+    height: 32px;
+    width: 1px;
+    background-color: #e64191;
+    top: 46px;
+    right: 42%;
+}
+
+.tweet-howwork .how-work-img .left-customers-box .width-line {
+    position: absolute;
+    top: 77px;
+    width: 72%;
+    height: 1px;
+    background-color: #e64191;
+    left: -50px;
+}
+
+.tweet-howwork .how-work-img .left-customers-box .round {
+    position: absolute;
+    left: -55px;
+    top: 71px;
+    border-radius: 100%;
+    background-color: #e64191;
+    height: 12px;
+    width: 12px;
+}
+
+.tweet-howwork .how-work-img .right-targets-box {
+    position: relative;
+}
+
+.tweet-howwork .how-work-img .right-targets-box .height-line {
+    position: absolute;
+    height: 237px;
+    width: 1px;
+    background-color: #9d45d3;
+    bottom: 26px;
+    right: -15px;
+}
+
+.tweet-howwork .how-work-img .right-targets-box .width-line {
+    position: absolute;
+    bottom: 26px;
+    width: 25px;
+    height: 1px;
+    background-color: #9d45d3;
+    right: -15px;
+}
+
+.tweet-howwork .how-work-img .right-targets-box .width-line-2 {
+    position: absolute;
+    right: -30px;
+    bottom: 262px;
+    width: 15px;
+    height: 1px;
+    background-color: #9d45d3;
+}
+
+.tweet-howwork .how-work-img .right-targets-box .round {
+    position: absolute;
+    right: -34px;
+    bottom: 257px;
+    border-radius: 100%;
+    background-color: #9d45d3;
+    height: 12px;
+    width: 12px;
+}
+
+.tweet-howwork .how-work-text.win-business h3 {
+    font-size: 32px;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 9;
+    font-weight: 800;
+}
+
+.tweet-howwork .how-work-text.win-business:before {
+    content: "";
+    position: absolute;
+    left: -7px;
+    top: 43px;
+    background-color: #7eebee;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.tweet-howwork .how-work-text.win-business p {
+    color: #265372;
+    font-size: 16px;
+}
+
+.tweet-howwork .how-work-text .btn {
+    margin-top: 20px;
+}
+
+.win-business-img img {
+    z-index: -1;
+    margin-top: -45px;
+}
+
+/* Testimonials Style*/
+
+.tweet-testimonials {
+    background-image: url(../img/tweet-bg.png);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    height: 670px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.tweet-testimonials .heading {
+    margin-top: 30px;
+}
+
+.tweet-testimonials .heading .title {
+    font-size: 27px;
+    color: #26455d;
+    margin: 0px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0.8px;
+    margin-right: 35px;
+}
+
+.tweet-testimonials .heading .title span {
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.tweet-testimonials [class*='col-'] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tweet-testimonials .tweetfull-tweet-box {
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 12px 20px 4px rgba(0, 0, 0, 0.10);
+    border-radius: 2px;
+    min-height: 165px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.tweet-testimonials .tweetfull-tweet-box .user-detail .user-img {
+    height: 42px;
+    width: 42px;
+    overflow: hidden;
+    border-radius: 100%;
+    float: left;
+}
+
+.tweet-testimonials .tweetfull-tweet-box .user-detail .username {
+    padding-left: 55px;
+}
+
+.tweet-testimonials .tweetfull-tweet-box .username h3 {
+    padding: 0;
+    color: #265372;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+
+.tweet-testimonials .tweetfull-tweet-box .username p {
+    color: #275372;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.tweet-testimonials .tweetfull-tweet-box .tweet p {
+    color: #265372;
+    margin-bottom: 0;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.tweet-testimonials .tweetfull-tweet-box .twitter-icon {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+.tweet-testimonials .tweetfull-tweet-box .twitter-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/*About Us Style*/
+
+.tweet-aboutus .about-content {
+    padding-right: 40px;
+}
+
+.tweet-aboutus .about-content .title {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #275372;
+}
+
+.tweet-aboutus .about-content ul {
+    padding: 20px 0 0px 5px;
+}
+
+.tweet-aboutus .about-content ul p {
+    color: #275374;
+    position: relative;
+    padding-left: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.tweet-aboutus .about-content ul p:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 3px;
+    background-image: url(../img/check-icon.png);
+    width: 18px;
+    height: 14px;
+}
+
+.tweet-aboutus .features-box .content .title {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.tweet-aboutus .features-box .content p {
+    color: #81a8c4;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Category Style*/
+
+.tweet-category .heading .title {
+    color: #26455d;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 0px;
+}
+
+.tweet-category .heading .title span {
+    text-transform: uppercase;
+}
+
+.tweet-category .heading p {
+    color: #265372;
+    width: 75%;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.tweet-category .category-box {
+    margin-bottom: 70px;
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+.tweet-category .category-box .category-img {
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.tweet-category .category-box .category-img:before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0px;
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    background-color: #32baee;
+    z-index: -1;
+}
+
+.tweet-category .category-box.musicians .category-img:before {
+    background-color: #2fe1e4;
+    top: auto;
+    bottom: -14px;
+    left: 3px;
+}
+
+.tweet-category .category-box.marketers .category-img:before {
+    background-color: #f7c200;
+    left: 52px;
+}
+
+.tweet-category .category-box.artists .category-img:before {
+    background-color: #fb25a5;
+    top: 20px;
+    left: -18px;
+}
+
+.tweet-category .category-box .content {
+    z-index: 99;
+    background-color: #fff;
+    border: 1px solid #32baee;
+    border-radius: 3px;
+    position: absolute;
+    width: 80%;
+    right: 0;
+    bottom: -30px;
+    padding: 15px;
+}
+
+.tweet-category .category-box .content .category-name {
+    color: #275372;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.tweet-category .category-box .content p {
+    margin-bottom: 0;
+    line-height: 22px;
+    color: #275372;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.tweet-category .category-box .title {
+    position: absolute;
+    right: 0;
+    top: 27px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #26455e;
+    font-weight: 500;
+}
+
+.tweet-category [class*=' col-'] {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/**/
+
+.tweet-three-border .border-tweet {
+    height: 1px;
+    background-color: #bfe2fa;
+    width: 100%;
+    margin: 5px 0;
+
+}
+
+/* Try Buy Style*/
+
+.tweet-trybuy .trybuy .title {
+    color: #26455e;
+    text-transform: uppercase;
+    font-size: 34px;
+    letter-spacing: 0.9px;
+    margin-top: 0px;
+    font-weight: 800;
+}
+
+.tweet-trybuy .trybuy p {
+    color: #265372;
+    font-size: 17px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+
+/*Footer*/
+
+footer {
+    padding: 50px 0;
+    border-top: 1px solid #bfe2fa;
+}
+
+footer .footer-logo p {
+    color: #8b8c8c;
+}
+
+footer .footer-menu ul li {
+    padding: 13px 10px;
+    display: inline-block;
+}
+
+footer .footer-menu ul li a {
+    text-transform: uppercase;
+    color: #80a7c4;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+
+
+
+.secound-header {
+    background-image: url(../img/banner.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+/*affiliate*/
+
+.tweet-affiliate .heading,
+.tweet-contact .heading,
+.tweet-help .heading,
+.tweet-login .heading,
+.tweet-plans .heading,
+.tweet-policy .heading {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.tweet-affiliate .heading .title,
+.tweet-contact .heading .title,
+.tweet-help .heading .title,
+.tweet-login .heading .title,
+.tweet-plans .heading .title,
+.tweet-policy .heading .title {
+    font-size: 28px;
+    color: #26455d;
+    margin: 0px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.tweet-affiliate .heading .title span,
+.tweet-help .heading .title span {
+    text-transform: uppercase;
+    font-size: 31px;
+}
+
+.panel {
+    border: 1px solid #eaeaea;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+}
+
+.panel .panel-header {
+    margin-top: 0px;
+    color: #275372;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.panel p {
+    margin-bottom: 0;
+    line-height: 24px;
+    color: #a6a8a9;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.7px;
+}
+
+.tweet-right-plan .trybuy .title {
+    color: #26455e;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 0.9px;
+    margin-top: 0px;
+    font-weight: 800;
+}
+
+.tweet-right-plan .trybuy p {
+    color: #265372;
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+.Tweet-body.e-entry-content {
+    color: #6a6a6a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.tweet-right-plan .btn-default {
+    margin-top: 25px;
+    float: right;
+}
+
+.tweet-login .login .text-center a {
+    color: #26455d;
+    font-weight: 700;
+}
+
+.tweet-business .well {
+    background-color: #f5f9fc;
+    border: 1px solid #77ebed;
+}
+
+.tweet-business .well .title {
+    margin-top: 0;
+    color: #26455d;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.tweet-business .well p {
+    margin-bottom: 0;
+    color: #4f7590;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+
+.tweet-business .heading .title {
+    margin-bottom: 30px;
+    color: #26455d;
+    font-weight: 700;
+}
+
+.tweet-plans .heading p {
+    color: #265372;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+
+/*=====================
+     panel
+=====================*/
+
+.panel-default {
+    border-color: #c9c9c9;
+}
+
+.tweet-plans .plans-panel .panel-heading {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.tweet-plans .plans-panel {
+    color: #2c3e50;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.tweet-plans .plans-panel p {
+    line-height: 1.7em;
+}
+
+.tweet-plans .plans .panel-heading {
+    background-color: #26455e;
+    padding: 20px;
+    color: #fff;
+    border: none;
+}
+
+.tweet-plans .plans .panel-title {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tweet-plans .plans .panel-body {
+    text-align: center;
+}
+
+.tweet-plans .plans .panel-body h2 {
+    color: #f33693;
+    background-color: #f9f9f9;
+    margin: -15px;
+    margin-bottom: 15px;
+    padding: 20px 25px;
+    text-align: center;
+    text-transform: none;
+    font-size: 80px;
+    font-weight: 500;
+}
+.tweet-plans .plans .panel-body .description {
+    color: #f33693;
+    background-color: #f9f9f9;
+    margin: -15px;
+    margin-bottom: 15px;
+    padding: 20px 25px;
+    text-align: center;
+    text-transform: none;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.tweet-plans .plans .panel-body sup {
+    font-size: 28px;
+    top: -1.3em;
+}
+
+.tweet-plans .plans-desc {
+    min-height: 445px;
+}
+
+.tweet-plans .plans .panel {
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: #fff;
+    border: 1px solid #bfe2fa;
+    margin-left: -1px;
+    padding: 0px;
+}
+
+.tweet-plans .plans .panel .panel-body p {
+    letter-spacing: normal;
+    line-height: 22px;
+    color: #265372;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.tweet-policy .panel ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    color: #a7a7a7;
+}
+
+.tweet-policy .panel ul li {
+    padding-bottom: 10px;
+}
+
+.tweet-policy .panel ul p {
+    color: #a7a7a7;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 0px;
+}
+
+/* Comparison Style */
+
+.tweet-comparison .heading .title {
+    padding-bottom: 10px;
+}
+
+.tweet-comparison .heading p {
+    padding-bottom: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+.comparision-table th {
+    padding: 20px 15px !important;
+    border-bottom-width: 1px !important;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #21939e;
+}
+
+.comparision-table tr td {
+    padding: 15px !important;
+    vertical-align: middle !important;
+}
+
+.comparision-table tr td .title {
+    color: #26455d;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+.comparision-table tr td a {
+    color: #26455d;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.comparision-table tr td p {
+    color: #a9a9a9;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+
+
+
+.check-icons {
+    background: url(../img/check-icons.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.no-icon {
+    width: 19px;
+    background-position: 0px 0;
+}
+
+.yes-icon {
+    width: 25px;
+    background-position: -19px 0;
+}
+
+.comparision-table tr td:nth-child(2) {
+    background-color: rgba(22, 185, 154, 0.05);
+}
+
+.comparision-table tr td:nth-child(3) {
+    background-color: rgba(33, 147, 158, 0.05);
+}
+
+.tweet-login .plans .panel {
+    padding: 0px;
+}
+
+.tweet-login .plans .panel .panel-heading {
+    background-color: #26455e;
+    padding: 20px 10px;
+}
+
+.tweet-login .plans .panel .panel-heading .panel-title {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+
+.tweet-login .plans .panel-body .plans-price {
+    color: #f33693;
+    background-color: #f9f9f9;
+    margin: -15px;
+    margin-bottom: 15px;
+    padding: 20px 25px;
+    text-align: center;
+    text-transform: none;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.tweet-login .plans .panel-body .plans-price sup {
+    font-size: 28px;
+    top: -1.3em;
+}
+
+.tweet-login .plans .panel-body .plans-desc {
+    text-align: center;
+}
+
+.tweet-login .plans .panel-body .plans-desc p {
+    letter-spacing: normal;
+    line-height: 22px;
+    color: #265372;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+
+
+
+/*Responsive Style */
+
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+
+    /**/
+    header .action-btn li {
+        margin: 4px 2px;
+    }
+
+    header .action-btn li .btn-info.login {
+        padding: 7px 16px;
+        font-size: 12px;
+    }
+
+    header .action-btn li .btn-info.signup {
+        padding: 7px 16px;
+        font-size: 13px;
+    }
+
+    /**/
+    .tweet-banner {
+        height: 600px;
+    }
+
+    /**/
+    .tweet-howwork .how-work-text {
+        padding-top: 30px;
+    }
+
+    .tweet-howwork .how-work-img .right-targets-box .height-line {
+        height: 200px;
+        bottom: 21px;
+        right: -15px;
+    }
+
+    .tweet-howwork .how-work-img .right-targets-box .width-line {
+        bottom: 20px;
+        right: -15px;
+    }
+
+    .tweet-howwork .how-work-img .right-targets-box .width-line-2 {
+        right: -30px;
+        bottom: 220px;
+    }
+
+    .tweet-howwork .how-work-img .right-targets-box .round {
+        right: -34px;
+        bottom: 215px;
+    }
+
+    .tweet-howwork .how-work-img .left-customers-box .height-line {
+        height: 15px;
+        top: 43px;
+        right: 45%;
+    }
+
+    .tweet-howwork .how-work-img .left-customers-box .width-line {
+        top: 57px;
+        width: 68%;
+        left: -38px;
+    }
+
+    .tweet-howwork .how-work-img .left-customers-box .round {
+        left: -47px;
+        top: 52px;
+    }
+
+    .tweet-howwork .how-work-text.win-business:before {
+        left: 5px;
+        top: 35px;
+        height: 65px;
+        width: 65px;
+    }
+
+    .win-business-img img {
+        margin-top: -20px;
+    }
+
+    .tweet-testimonials .heading .title {
+        margin-right: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+
+    /**/
+    header .logo img {
+        width: 95%;
+    }
+
+    header .action-btn li {
+        margin: 4px 2px;
+    }
+
+    header .action-btn li .btn-info.login {
+        padding: 7px 16px;
+        font-size: 12px;
+    }
+
+    header .action-btn li .btn-info.signup {
+        padding: 7px 16px;
+        font-size: 13px;
+    }
+
+    header .navbar-nav li a {
+        padding: 14px;
+    }
+
+    /**/
+    .tweet-banner {
+        height: 600px;
+    }
+
+    .tweet-followers .follower-box .count {
+        font-size: 45px;
+    }
+
+    /**/
+    .tweet-howwork .how-work-text {
+        padding-top: 30px;
+    }
+
+    .tweet-howwork .how-work-img .right-targets-box .height-line {
+        height: 157px;
+        bottom: 14px;
+        right: -15px;
+    }
+
+    .tweet-howwork .how-work-img .right-targets-box .width-line {
+        bottom: 14px;
+        right: -15px;
+        width: 22px;
+    }
+
+    .tweet-howwork .how-work-img .right-targets-box .width-line-2 {
+        right: -30px;
+        bottom: 170px;
+    }
+
+    .tweet-howwork .how-work-img .right-targets-box .round {
+        right: -34px;
+        bottom: 165px;
+    }
+
+    .tweet-howwork .how-work-img .left-customers-box .height-line {
+        height: 15px;
+        top: 30px;
+        right: 45%;
+    }
+
+    .tweet-howwork .how-work-img .left-customers-box .width-line {
+        top: 45px;
+        width: 75%;
+        left: -44px;
+    }
+
+    .tweet-howwork .how-work-img .left-customers-box .round {
+        left: -52px;
+        top: 40px;
+    }
+
+    .tweet-howwork .how-work-text.win-business:before {
+        left: 5px;
+        top: 15px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .win-business-img img {
+        margin-top: 0px;
+        width: 370px;
+    }
+
+    .tweet-howwork .how-work-text.win-business h3 {
+        font-size: 28px;
+    }
+
+    .tweet-howwork .how-work-text h3 {
+        margin-top: 0px;
+    }
+
+    .tweet-howwork .how-work-text p {
+        padding-top: 8px;
+        font-size: 13px;
+        padding-right: 0px;
+        line-height: 23px;
+    }
+
+    .tweet-howwork .how-work-text.win-business p {
+        color: #265372;
+        font-size: 15px;
+        padding-top: 14px;
+    }
+
+    .tweet-howwork .how-work-text .btn {
+        margin-top: 5px;
+    }
+
+    /**/
+    .tweet-testimonials {
+        height: inherit;
+        background-color: #f5f9fc;
+        background-image: none;
+        padding: 30px;
+        margin: 30px 0;
+    }
+
+    .tweet-testimonials .heading {
+        margin-bottom: 20px;
+    }
+
+    /**/
+    .tweet-category .heading p {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /**/
+    .tweet-aboutus .aboutus-img img {
+        margin: auto;
+    }
+
+    /**/
+    footer .footer-menu ul li a {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .tweet-section {
+        padding: 20px 0;
+    }
+
+    /*Header*/
+    .secound-header {
+        background-color: #11aef4;
+        background-image: none;
+    }
+
+    header .logo img {
+        width: 50%;
+    }
+
+    .mp0 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    header .navbar {
+        margin-top: -45px;
+    }
+
+    header .navbar .navbar-collapse {
+        background-color: #178fda;
+        margin-top: 10px;
+        border: none;
+        box-shadow: 0 7px 14px rgba(0, 0, 0, 0.08);
+    }
+
+    .navbar-header {
+        padding: 0;
+    }
+
+    header .navbar-toggle {
+        background-color: #fff;
+        border: 1px solid #fff;
+        padding: 10px 10px;
+        margin: 0px;
+    }
+
+    header .navbar-toggle .icon-bar {
+        background-color: #12aff4;
+    }
+
+    header .navbar-nav {
+        margin: 0px -15px;
+    }
+
+    header .navbar-nav li {
+        display: block;
+        text-align: left;
+    }
+
+    header .navbar-nav li a {
+        color: #fff;
+    }
+
+    header .navbar-nav li a.active,
+    header .navbar-nav li a:hover {
+        color: #fff;
+        background-color: #28c2ff;
+        cursor: pointer;
+    }
+
+    /*banner*/
+    .tweet-banner {
+        height: 450px;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .banner-text .text .middel .box {
+        margin-top: 50px;
+    }
+
+    .banner-text .box .heading h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .banner-text .box .sub-title {
+        font-size: 16px;
+        margin-bottom: 25px;
+        letter-spacing: 0.8px;
+        line-height: 25px;
+    }
+
+    /*followers*/
+    .tweet-followers {
+        position: relative;
+        bottom: 0;
+    }
+
+    .tweet-followers .follower-box {
+        float: none !important;
+        padding: 15px;
+        box-shadow: 0px 2px 34px rgba(0, 0, 0, 0.14);
+        border-radius: 5px;
+    }
+
+    .tweet-followers .follower-box.pull-right {
+        margin-bottom: 30px;
+    }
+
+    .tweet-followers .follower-box .count {
+        font-size: 40px;
+        text-shadow: 0px 3px 5px #2497ed;
+    }
+
+    .tweet-followers [class*=' col-'] {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .tweet-followers .follower-box .text {
+        color: rgba(38, 69, 94, 0.43);
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+
+    .tweet-followers .follower-box.pull-right:after {
+        display: none;
+    }
+
+    /*howwork*/
+    .tweet-howwork .how-work-text {
+        padding-top: 0;
+    }
+
+    .tweet-howwork .how-work-img {
+        box-shadow: none;
+    }
+
+    .tweet-howwork .how-work-img img {
+        margin: 15px auto;
+        box-shadow: 0 13px 45px 15px rgba(0, 0, 0, 0.10);
+    }
+
+    .win-business-img img {
+        margin: 15px 0px;
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .tweet-howwork .how-work-img .left-customers-box,
+    .tweet-howwork .how-work-img .right-targets-box,
+    .tweet-howwork .how-work-text.win-business:before {
+        display: none;
+    }
+
+    .tweet-howwork .how-work-text.win-business h3 {
+        font-size: 25px;
+    }
+
+    /*testimonials*/
+    .tweet-testimonials {
+        background-color: #f5f9fc;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-image: none;
+        padding: 20px;
+        height: inherit;
+    }
+
+    .tweet-testimonials .heading {
+        margin: 30px;
+    }
+
+    .tweet-testimonials .heading .title {
+        margin-right: 0px;
+    }
+
+    .tweet-testimonials .tweetfull-tweet-box {
+        padding: 15px;
+        margin-bottom: 25px;
+        margin-left: 0;
+        margin-right: 0;
+        min-height: 175px;
+    }
+
+    /**/
+    .tweet-category .heading {
+        margin-bottom: 30px;
+    }
+
+    .tweet-category .heading .title {
+        margin-top: 0px;
+
+    }
+
+    .tweet-category .heading p {
+        width: 100%;
+    }
+
+    .tweet-category .category-box .title {
+        top: 45px;
+    }
+
+    /**/
+    .tweet-aboutus .about-content {
+        padding-right: 0px;
+    }
+
+    .tweet-aboutus .features-box .features-img {
+        text-align: center;
+    }
+
+    .tweet-aboutus .features-box .features-img img {
+        margin: auto;
+    }
+
+    .tweet-category .category-box .content {
+        min-height: 110px;
+        width: 88%;
+    }
+
+    .tweet-trybuy .btn-default {
+        margin-top: 20px;
+    }
+
+    .tweet-trybuy .col-md-5.col-sm-6.text-center {
+        text-align: left;
+    }
+
+    .tweet-trybuy .trybuy p {
+        font-size: 14px;
+    }
+
+    .tweet-trybuy .trybuy .title {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 580px) {
+    .tweet-testimonials .col-md-3.col-sm-4.col-xs-6 {
+        width: 100%;
+    }
+
+    .tweet-category .category-box .title {
+        top: 40px;
+    }
+
+    .tweet-testimonials .tweetfull-tweet-box {
+        min-height: inherit;
+    }
+}
+
+@media (max-width: 420px) {
+    .tweet-category .category-box .content {
+        min-height: 130px;
+        width: 88%;
+    }
+
+    .tweet-category .category-box .title {
+        top: 28px;
+    }
+
+    .tweet-category .category-box .content p {
+        font-size: 12px;
+    }
+
+    .tweet-category .category-box .content .category-name {
+        font-size: 18px;
+    }
+}

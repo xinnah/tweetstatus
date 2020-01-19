@@ -1,0 +1,6 @@
+
+<li class="has-sub {{ Request::is('instagram-followers') ? 'active' : '' }}"><a href="{{URL::to('/instagram-followers')}}"><i class="fas fa-users"></i> <span> <span>Followers</span></span></a></li>
+<li class="has-sub {{ Request::is('instagram-following') ? 'active' : '' }}"><a href="{{URL::to('/instagram-following')}}"><i class="fas fa-user-plus"></i> <span> <span>Following</span></span></a></li>
+<!-- <li class="has-sub {{ Request::is('instagram-non-followback') ? 'active' : '' }}"><a href="{{URL::to('/instagram-non-followback')}}"><i class="fas fa-user-times"></i> <span> <span>Non-Followback</span></span></a></li>
+<li class="has-sub {{ Request::is('instagram-i-dont-followback') ? 'active' : '' }}"><a href="{{URL::to('/instagram-i-dont-followback')}}"><i class="fas fa-user-slash"></i> <span> <span>I-don't Followback</span></span></a></li> -->
+<li class="has-sub {{ Request::is('instagram-search') ? 'active' : '' }}"><a href="{{URL::to('/instagram-search')}}"><i class="fas fa-search-plus"></i> <span> <span>Search follower</span></span></a></li>

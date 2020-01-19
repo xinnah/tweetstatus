@@ -1,0 +1,376 @@
+body {
+    background-color: #fff;
+    overflow-x: hidden;
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2em;
+}
+
+a{cursor: pointer;}
+.font-18 {
+    font-size: 18px;
+}
+
+:focus {
+    outline: 0;
+}
+
+
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -ms-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in;
+}
+
+.white,
+.white a {
+    color: #fff !important;
+}
+
+.blue,
+.blue a {
+    color: #2c3e50 !important;
+}
+
+.light-blue,
+.light-blue a {
+    color: #1d929d !important;
+}
+
+.gray,
+.gray a {
+    color: #666 !important;
+}
+
+.lightgray,
+.lightgray a {
+    color: #999 !important;
+}
+
+.medium-gray,
+.medium-gray a {
+    color: #666 !important;
+}
+
+.dark-gray,
+.dark-gray a {
+    color: #333 !important;
+}
+
+.light-gray-bg {
+    background-color: #fbfbfb;
+}
+
+.my-lg-gutter {
+    clear: both;
+    overflow: hidden;
+    position: relative;
+    height: 20px;
+    width: 100%;
+    opacity: 0;
+}
+
+.my-md-gutter {
+    clear: both;
+    overflow: hidden;
+    position: relative;
+    height: 15px;
+    width: 100%;
+    opacity: 0;
+}
+
+.my-sm-gutter {
+    clear: both;
+    overflow: hidden;
+    position: relative;
+    height: 10px;
+    width: 100%;
+    opacity: 0;
+}
+
+.my-xs-gutter {
+    clear: both;
+    overflow: hidden;
+    position: relative;
+    height: 5px;
+    width: 100%;
+    opacity: 0;
+}
+
+.my-clear-fix {
+    clear: both;
+}
+
+.align-center {
+    margin-right: auto;
+    margin-left: auto;
+    display: table !important;
+}
+
+.position-relative {
+    position: relative;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.font-regular {
+    font-weight: 500;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+
+.btn-lg {
+    height: 54px !important;
+    padding: 13px 20px !important;
+}
+
+.btn-100-px {
+    min-width: 100px;
+}
+
+.my-100-percent {
+    min-width: 100%;
+}
+
+.btn-lg,
+.btn-group-lg > .btn {
+    font-size: 18px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+    color: #fff;
+    background-color: #1a2836;
+    border-color: #1a2836;
+}
+
+.btn-info {
+    color: #FFFFFF;
+    background-color: #1d929d;
+    border-color: #1d929d;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info:active:hover,
+.btn-info.active:hover,
+.open > .dropdown-toggle.btn-info:hover,
+.btn-info:active:focus,
+.btn-info.active:focus,
+.open > .dropdown-toggle.btn-info:focus,
+.btn-info:active.focus,
+.btn-info.active.focus,
+.open > .dropdown-toggle.btn-info.focus,
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+    color: #FFFFFF;
+    background-color: #09717b;
+    border-color: #09717b;
+}
+
+.btn-ghost {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.btn-ghost:hover,
+.btn-ghost:focus,
+.btn-ghost.focus,
+.btn-ghost:active:hover,
+.btn-ghost.active:hover,
+.open > .dropdown-toggle.btn-ghost:hover,
+.btn-ghost:active:focus,
+.btn-ghost.active:focus,
+.open > .dropdown-toggle.btn-ghost:focus,
+.btn-ghost:active.focus,
+.btn-ghost.active.focus,
+.open > .dropdown-toggle.btn-ghost.focus {
+    color: #fff;
+    background-color: #1D929D;
+    border-color: #1D929D;
+}
+
+.error-signal {
+    border: 2px solid #D94343;
+}
+
+.form-control {
+    height: 44px;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    border-width: 2px;
+    border-color: #1d929d;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+/*=====================
+        Headings
+=====================*/
+
+.my-heading {
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.my-page-heading {
+    display: table;
+    border-bottom: 2px solid #ddd;
+    margin: 0 auto 15px;
+    padding-bottom: 12px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.panel-header {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 10px 0;
+}
+
+
+/*=====================
+    Promotion Bar
+=====================*/
+
+.promotion-bar {
+    background-color: #1d929d;
+    padding: 12px 15px 12px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    display: block;
+    margin-bottom: 0;
+    border: 0;
+}
+
+.promotion-bar .btn {
+    height: 32px;
+    padding: 4px 16px;
+    font-size: 15px;
+    margin: 0 8px;
+}
+
+.promotion-bar.alert-dismissable .close,
+.promotion-bar.alert-dismissible .close {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    color: inherit;
+    opacity: 0.7;
+    font-size: 26px;
+}
+
+.login .panel-body {
+    padding: 20px;
+}
+
+.login .panel-body .form-group {
+    margin: 0;
+    padding: 12px 0;
+}
+
+.login .panel {
+    margin-top: 0px;
+}
+
+/*=====================
+    Media Queries
+=====================*/
+
+@media (min-width: 768px) {
+    .pull-right-sm {
+        float: right !important;
+    }
+}
+
+@media(min-width:992px) {
+    .pull-right-md {
+        float: right !important;
+    }
+
+    #Video-Modal .modal-dialog {
+        width: 60%;
+        margin: 6% auto;
+    }
+
+    .plans .panel {
+        margin-left: -1px;
+    }
+}
+
+@media(min-width:1200px) {
+    .pull-right-lg {
+        float: right !important;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .form-control {
+        margin-bottom: 10px;
+    }
+}
