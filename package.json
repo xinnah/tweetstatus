@@ -20,7 +20,7 @@
     "vue": "^2.5.17"
   },
   "dependencies": {
-    "highcharts": "^7.0.3",
+    "highcharts": "^9.0.0",
     "highcharts-vue": "^1.2.0",
     "luxon": "^1.12.0",
     "vue-content-loading": "^1.5.3",
