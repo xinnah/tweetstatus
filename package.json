@@ -22,7 +22,7 @@
   "dependencies": {
     "highcharts": "^7.0.3",
     "highcharts-vue": "^1.2.0",
-    "luxon": "^1.12.0",
+    "luxon": "^2.5.2",
     "vue-content-loading": "^1.5.3",
     "vue-datetime": "^1.0.0-beta.10",
     "vue-eagle-modal": "^1.0.4",
